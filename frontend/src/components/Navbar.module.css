@@ -1,0 +1,24 @@
+.Bar{
+    background-color: white;
+    /* height: 30px; */
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 10;
+    height: 5%;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px black solid;
+    width: 10vi;
+    text-align: center;
+}
+.link2{
+    color: black;
+    text-decoration: none;
+    width: 10vi;
+    text-align: center;
+}

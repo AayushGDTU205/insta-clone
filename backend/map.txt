@@ -1,0 +1,24 @@
+follower routes
+->follow
+->unfollow
+->like a post
+->unlike a post
+->comment on a post
+->delete comment
+->get posts(of a single user)
+->get post item
+->getMyProfile
+
+account holder routes
+->post
+->post delete
+->post update
+->edit profile
+->get likers(to see likers list)
+->get commenters(to see commenters list)
+->get followers(to see follower list)
+->get following(to see following list)
+
+general
+->get users
+

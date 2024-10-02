@@ -1,0 +1,16 @@
+.loggingOut{
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+    background-color: rgba(255,255,255,0.7);
+}
+.FeedViewBG{
+    min-height: 100%;
+    min-width: 100%;
+     background-image: url('../icons/loginBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+    /* overflow: scroll; */
+}

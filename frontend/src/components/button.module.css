@@ -1,0 +1,7 @@
+.BUTTON{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    height: 5vh;
+}

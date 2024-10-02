@@ -1,0 +1,12 @@
+.profileBG{
+    
+        min-height: 100%;
+        min-width: 100%;
+         background-image: url(../icons/insta.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        background-attachment: fixed;
+        /* overflow: scroll; */
+    
+}
