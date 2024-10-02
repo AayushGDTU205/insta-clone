@@ -7,6 +7,11 @@ import {
 } from "../controllers/login.js";
 
 const router = express.Router();
+router.get('/', (req, res, next) => {
+    res.json({
+        message: "Welcome to todos app"
+    })
+});
 router.post('/signup', upload.single('profile'),postSignup); //
 router.post('/login', postLogin); //
 router.post('/logout', postLogout);
