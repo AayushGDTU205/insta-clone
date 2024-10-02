@@ -22,6 +22,11 @@ app.use(express.static('public'));
 app.use(cookieParser());
 
 // console.log(process.env.MongoDBcon);
+app.get('/test', (req, res, next) => {
+    res.json({
+        message: "Welcome to todos app"
+    })
+});
 app.use('/', loginRouter);
 app.use('/follower', verifyJWT, followerRouter);
 app.use('/holder', verifyJWT, holderRouter);
