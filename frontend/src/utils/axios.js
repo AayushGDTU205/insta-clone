@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "https://insta-clone-nsz1.vercel.app/",
+    baseURL: "https://insta-clone-4ph5.onrender.com",
     withCredentials:true
 })
 
