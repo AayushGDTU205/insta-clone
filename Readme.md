@@ -7,7 +7,7 @@ The project was created with a mindset of learning Web development and is incorp
 -> Backend is made using NodeJS and ExpressJS  
 -> Database used is MongoDB  
 -> Frontend is made using ReactJS  
--> Deployment done using vercel  
+-> Deployment done using vercel (frontend) and render(backend) 
 
 ## Functionalities
 -> Creating an account  
