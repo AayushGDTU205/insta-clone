@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT;
 app.use(cors({
     credentials: true,
-    origin: process.env.cors_origin,
+    origin: ["https://insta-clone-k6rj-q08zrzgoa-aayush-guptas-projects-2bb8740e.vercel.app/"],
 }))
 
 app.use(bodyParser.json());
