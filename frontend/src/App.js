@@ -31,7 +31,8 @@ function App() {
           navigate('/login');
         }
       } catch (error) {
-        if (error.response.status > 399) {
+        console.log(error);
+        if (error.message==='Network Error' || error.response.status > 399) {
           navigate('/login');
         }
       }
